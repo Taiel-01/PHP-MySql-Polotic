@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/TP/css/styles.css">
+    <title>MI CV</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion" id="nav">
+            <ul class="menu">
+                <li><a href=#nav>Inicio</a></li>
+                <li><a href=#soy>Quien soy</a></li>
+                <li><a href=#T1>Servicios</a></li> 
+                <li><a href=#contacto>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Nombre y Apellido</h1>
+    </section>
+    <div class="foto">
+        <img src="media/mi.jpg">
+    </div>
+    <div class="animated-text">
+        <div class="line">Diseño Web</div>
+        <div class="line">PHP </div>
+        <div class="line">HTML</div>
+        <div class="line">CSS</div>
+    </div>
+    <div class="soy">
+        <p><h2 id="soy">UN POCO DE MI </h2></p>
+        <p>Hola Soy desarrollador Front End. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste distinctio vel modi facilis, minima esse voluptatibus quo at facere sed. Ad suscipit vero perferendis totam quidem similique dignissimos voluptas.</p><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit maxime blanditiis nostrum adipisci impedit facilis praesentium  suscipit officiis doloribus iusto laudantium, libero saepe illo voluptates minima consequatur? Ipsa, magni nostrum!</p><br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, eveniet. Nobis, tenetur minima illo earum perferendis est. Dolore, minima illo? Ut voluptatum illo corporis quaerat! Et ipsa odit sequi enim.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit maxime blanditiis nostrum adipisci impedit facilis praesentium suscipit officiis doloribus iusto laudantium, libero saepe illo voluptates minima consequatur? Ipsa, magni nostrum!</p><br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, eveniet. Nobis, tenetur minima illo earum perferendis est. Dolore, minima illo? Ut voluptatum illo corporis quaerat! Et ipsa odit sequi enim.</p>
+    </div>
+    <button><a href=#nav>Inicio</a></button>
+    <div class="servicios">
+        <div class="T1">
+            <h3 id="T1">ALGO DE MIS TRABAJOS</h3> <br><br>
+            <img src="https://www.websitetooltester.com/wp-content/uploads/2017/06/jimdo-plantillas-ejemplos-blog-1.png">
+            <img src="https://siemprendes.com/wp-content/uploads/2019/07/ejemplo-web-dinamica-3.png">
+            <img src="https://pomstandard.com/files/2018/07/colvin.jpg">
+        </div>
+        <button><a href=#nav>Inicio</a></button>
+    </div>
+    <div class="wrapper">
+        <div class="title" id="contacto">
+            <h1>CONTACTAME</h1>
+        </div>
+    </div>
+    <div class="contactBody">
+    
+        <form action="enviar.php" method="post" class="form_contact">
+        
+            <input type="text" class="name entry " name="nombre" placeholder="Tu nombre" required/>
+    
+            <input type="text" class="email entry" name="correo" placeholder="Email" required/>
+            
+            <textarea class="message entry" placeholder="mensaje" required></textarea> 
+    
+            <button class="submit entry" onclick="Gracias()">Enviar</button>
+        
+        </form> 
+        <div class="shadow"></div>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
