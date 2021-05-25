@@ -17,15 +17,38 @@ body {
     margin: 0 auto;   
 }
 
+.separar {
+    margin: 5rem auto;
+}
 
 /* ============== BACKGROUND ============== */
 .bg-img {
-    background-image: url(/CV/img/bg-header-min.jpg);
+    background-image: url(/CV/img/bg-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh;
-    padding-top: 2rem;
+    height: 100vh;
+}
+
+@media (min-width: 480px) {
+    .bg-img {
+        height: 75vh;
+        padding-top: 2rem;
+    }
+}
+
+
+/* ============== HEADER ============== */
+.header {
+    text-align: center;
+    color: #ffa229;
+    line-height: 5rem;
+    margin-top: 10rem;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 15rem;
 }
 
 
@@ -46,7 +69,7 @@ body {
 }
 
 .navegacion a:hover {
-    background-color: #000000d5;
+    background-color: #ffa22975;
     color: #fff;
 }
 
@@ -67,3 +90,18 @@ body {
 }
 
 
+/* ============== Quien Soy ============== */
+.quiensoy {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.quiensoy p {
+   font-size: 2rem;
+   line-height: 3rem;
+}
+
+.quiensoy h3 {
+    font-size: 3rem;
+    text-align: center;
+}
