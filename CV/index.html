@@ -57,23 +57,27 @@
                 </div>
             </div>
         </section>
-        <section id="contacto" class="conteiner">
-            <form action="">
+        <section id="contacto" class="conteiner separar">
+            <form action="enviar.php" method="post" class="formulario">
                 <fieldset>
-                    
+                    <div>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <label for="correo">Correo: </label>
+                        <input type="email" name="correo" id="correo" placeholder="mail@mail.com" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje: </label>
+                        <textarea id="mensaje" placeholder="mensaje..." required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit">
+                    </div>
                 </fieldset>
             </form>
         </section>
     </main>
-    <footer class="conteiner">
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Quien soy</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
-        </nav>   
-        <p>Todos los derechos reservados. Taiel Nunes WebDev</p>
-    </footer>
-
 </body>
 </html>
